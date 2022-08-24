@@ -30,9 +30,9 @@ function App ({ getCovidStats, stats, loading }) {
               <h1>Covid 19 Stats in Nigeria</h1>
             </div>
             <div>
-              <Row className='px-md-5 px-2 g-2 row-eq-height'>
-                <Col className='h-100'>
-                  <div className='card h-100 bg-success px-1 py-4'>
+              <Row className='px-md-5 px-2 g-2 '>
+                <Col sm='12' md='3' className='h-100'>
+                  <div className='card h-100 bg-success px-3 border-none py-4'>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div>
                         <img
@@ -51,8 +51,8 @@ function App ({ getCovidStats, stats, loading }) {
                     </div>
                   </div>
                 </Col>
-                <Col className='h-100'>
-                  <div className='card h-100 bg-danger px-1 py-4'>
+                <Col sm='12' md='3' className='h-100'>
+                  <div className='card h-100 bg-danger px-3 border-none py-4'>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div>
                         <img
@@ -71,8 +71,8 @@ function App ({ getCovidStats, stats, loading }) {
                     </div>
                   </div>
                 </Col>
-                <Col className='h-100'>
-                  <div className='card h-100 bg-warning px-1 py-4'>
+                <Col sm='12' md='3' className='h-100'>
+                  <div className='card h-100 bg-warning px-3 border-none py-4'>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div>
                         <img
@@ -91,8 +91,8 @@ function App ({ getCovidStats, stats, loading }) {
                     </div>
                   </div>
                 </Col>
-                <Col className='h-100'>
-                  <div className='card h-100 bg-secondary px-1 py-4'>
+                <Col sm='12' md='3' className='h-100'>
+                  <div className='card h-100 bg-secondary px-3 border-none py-4'>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div>
                         <img
@@ -109,8 +109,8 @@ function App ({ getCovidStats, stats, loading }) {
                     </div>
                   </div>
                 </Col>
-                <Col className='h-100'>
-                  <div className='card h-100 bg-dark px-1 py-4'>
+                <Col sm='12' md='3' className='h-100'>
+                  <div className='card h-100 bg-dark px-3 border-none py-4'>
                     <div className='d-flex justify-content-between align-items-center'>
                       <div>
                         <img
@@ -129,7 +129,7 @@ function App ({ getCovidStats, stats, loading }) {
                 </Col>
               </Row>
             </div>
-            <div className='px-md-5 px-2 my-4'>
+            <div className='px-md-5 px-2 my-4 overflow-scroll'>
               <Table striped>
                 <thead className='bg-dark text-white py-2'>
                   <tr>
