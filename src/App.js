@@ -43,7 +43,7 @@ function App ({ getCovidStats, stats, loading }) {
                         />
                       </div>
                       <div>
-                        <h3 className='text-white'>
+                        <h3 className='text-white text-right'>
                           {stats?.totalSamplesTested}
                         </h3>
                         <p className='text-white mb-0'>Total Samples Tested</p>
@@ -63,7 +63,7 @@ function App ({ getCovidStats, stats, loading }) {
                         />
                       </div>
                       <div>
-                        <h3 className='text-white'>
+                        <h3 className='text-white text-right'>
                           {stats?.totalConfirmedCases}
                         </h3>
                         <p className='text-white mb-0'>Total Confirmed Cases</p>
@@ -83,7 +83,7 @@ function App ({ getCovidStats, stats, loading }) {
                         />
                       </div>
                       <div>
-                        <h3 className='text-white'>
+                        <h3 className='text-white text-right'>
                           {stats?.totalActiveCases}
                         </h3>
                         <p className='text-white mb-0'>Total Active Cases</p>
@@ -103,7 +103,7 @@ function App ({ getCovidStats, stats, loading }) {
                         />
                       </div>
                       <div>
-                        <h3 className='text-white'>{stats?.discharged}</h3>
+                        <h3 className='text-white text-right'>{stats?.discharged}</h3>
                         <p className='text-white mb-0'>Discharged</p>
                       </div>
                     </div>
@@ -121,7 +121,7 @@ function App ({ getCovidStats, stats, loading }) {
                         />
                       </div>
                       <div>
-                        <h3 className='text-white'>{stats?.death}</h3>
+                        <h3 className='text-white text-right'>{stats?.death}</h3>
                         <p className='text-white mb-0'>Death</p>
                       </div>
                     </div>
